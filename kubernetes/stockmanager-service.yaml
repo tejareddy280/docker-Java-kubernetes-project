@@ -12,6 +12,7 @@ spec:
   ports:
   - protocol: TCP
     port: 8030
+    targetPort: 8030
     name: http
 
 ---
